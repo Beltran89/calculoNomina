@@ -53,28 +53,33 @@
     $("#cpp").click(function () {
         var num = $("#pp").val()
         var resul = num * 1.250593
+        $("#txtpp").html("")
         $("#txtpp").append(resul.toFixed(2))
     } );
     $("#cpn").click(function () {
         var num = $("#pn").val()
         var resul = num * 0.802899
+        $("#txtpn").html("")
         $("#txtpn").append(resul.toFixed(2))
     
     } );
     $("#cbm").click(function () {
         var num = $("#bm").val()
         var resul = num * 8.871867
+        $("#txtbm").html("")
         $("#txtbm").append(resul.toFixed(2))
     } );
     $("#ccd").click(function () {
         var num = $("#cd").val()
         var resul = num * 10.733224
+        $("#txtcd").html("")
         $("#txtcd").append(resul.toFixed(2))
     } );
     $("#cet").click(function () {
         var num = $("#et").val()
         var resul = num * 15.758822
-        $("#txtet").append(resul.toFixed(2))
+        $("#txtet").html("")
+        $("#txtet").append("Resultado de Encargado Trabajo :" + resul.toFixed(2))
     } );
 
 </script>
