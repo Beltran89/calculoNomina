@@ -1,0 +1,15 @@
+#desc{
+    width: 35%;
+ float: left;
+  }
+#inp{
+    width: 30%;
+    float: left;
+  }
+#btn{
+    
+    float: left;
+}
+#resl{
+    clear:both;
+}
