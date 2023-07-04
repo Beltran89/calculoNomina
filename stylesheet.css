@@ -18,3 +18,54 @@
 input{
     width: 60%;
 }
+#calc{
+    border: 1px solid green;
+    float: left;
+}
+legend {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 800px) {
+    #desc{
+        width: 50%;
+        float: left;
+      }
+    #inp{
+        width: 20%;
+        float: left;
+      }
+    #btn{
+        /* margin-left: 3px; */
+        float: left;
+        
+    }
+    #resl{
+        clear:both;
+    }
+    
+    input{
+        width: 60%;
+    }
+    #calc{
+        border: 1px solid green;
+        float: left;
+    }
+    legend {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #l-sin{
+        width: 40%;
+    }
+    #l-adif{
+        width: 45%;
+        margin-top: 10%;
+    }
+    @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) { /* Aquí van los estilos */}
+  }
